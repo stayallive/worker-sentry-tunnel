@@ -1,0 +1,14 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "sentry-tunnel",
+	"main": "src/index.ts",
+	"vars": {
+		"SENTRY_DSN_WHITELIST": "",
+		"SENTRY_HOST_WHITELIST": "",
+		"ENABLE_CORS": false,
+	},
+	"limits": {
+		"cpu_ms": 50,
+	},
+	"compatibility_date": "2025-04-02",
+}
